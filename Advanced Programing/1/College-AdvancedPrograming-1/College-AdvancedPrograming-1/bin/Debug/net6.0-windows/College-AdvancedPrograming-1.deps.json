@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "College-AdvancedPrograming-1/1.0.0": {
+        "runtime": {
+          "College-AdvancedPrograming-1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "College-AdvancedPrograming-1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

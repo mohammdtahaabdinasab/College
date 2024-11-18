@@ -1,0 +1,17 @@
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\bin\Debug\net6.0-windows\College-AdvancedPrograming-1.exe
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\bin\Debug\net6.0-windows\College-AdvancedPrograming-1.deps.json
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\bin\Debug\net6.0-windows\College-AdvancedPrograming-1.runtimeconfig.json
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\bin\Debug\net6.0-windows\College-AdvancedPrograming-1.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\bin\Debug\net6.0-windows\ref\College-AdvancedPrograming-1.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\bin\Debug\net6.0-windows\College-AdvancedPrograming-1.pdb
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.csproj.AssemblyReference.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College_AdvancedPrograming_1.Form1.resources
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.csproj.GenerateResource.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.AssemblyInfoInputs.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.AssemblyInfo.cs
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.csproj.CoreCompileInputs.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\ref\College-AdvancedPrograming-1.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.pdb
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\College-AdvancedPrograming-1\College-AdvancedPrograming-1\obj\Debug\net6.0-windows\College-AdvancedPrograming-1.genruntimeconfig.cache
