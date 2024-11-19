@@ -26,7 +26,7 @@ public class Main
                     salary -= (salary * 5 / 100);
                 }
                 try {
-                    System.out.print(name+"Enter the number of your children : ");
+                    System.out.print(name+" enter the number of your children : ");
                     int children = Integer.parseInt(myScannerObject.nextLine());
                     for (int j = 1; j < children; j++) {
                         salary += (salary * 7 / 100);
