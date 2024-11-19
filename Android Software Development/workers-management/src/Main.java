@@ -14,7 +14,6 @@ public class Main
 
             if (name.equalsIgnoreCase("exit"))
             {
-                System.out.print("goodbye!");
                 break;
             }
 
