@@ -1,12 +1,2 @@
 # Recent Activity
-
-[![starsBadge]][stargazers]
-[![forksBadge]][forks]
-[![issuesBadge]][issues]
-![sizeBadge]
-![codelinesBadge]
-[![codeOfConductBadge]][codeOfConduct]
-
-![uniqueUsersBadge]
-![totalrunsbadge]
-![successratebadge]
+[GitHub Workflow Status](https://img.shields.io/github/workflow/status/mohammdtahaabdinasab/College/CI?label=build)
