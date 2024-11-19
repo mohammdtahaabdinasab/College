@@ -1,2 +1,2 @@
 # Recent Activity
-[GitHub Workflow Status](https://img.shields.io/github/workflow/status/mohammdtahaabdinasab/College/CI?label=build)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mohammdtahaabdinasab)](https://github.com/mohammdtahaabdinasab/github-readme-activity-graph)
