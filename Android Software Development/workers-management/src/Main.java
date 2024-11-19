@@ -20,7 +20,7 @@ public class Main
 
             try
             {
-                System.out.print(name+"Enter your salary : ");
+                System.out.print(name+" enter your salary : ");
                 int salary = Integer.parseInt(myScannerObject.nextLine());
                 if (salary >= 5700) {
                     salary -= (salary * 5 / 100);
