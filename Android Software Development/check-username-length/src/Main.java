@@ -7,12 +7,13 @@ public class Main {
         Scanner myScannerObject = new Scanner(System.in);
         for (int i = 1; i <= 10; i++) {
             System.out.print("Enter Name "+i+" : ");
-            String Name = myScannerObject.nextLine();
-            if (Name.equalsIgnoreCase("exit")) {
+            String name = myScannerObject.nextLine();
+            if (name.equalsIgnoreCase("exit")) {
                 break;
             }
-            System.out.println("Your name is "+Name+" and length your name is "+Name.length());
+            System.out.println("Your name is "+name+" and length your name is "+name.length());
         }
         System.out.print("my mission is complete, goodbye!");
+        myScannerObject.close();
     }
 }
