@@ -1,0 +1,17 @@
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\bin\Debug\net6.0-windows\CodeEditor.exe
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\bin\Debug\net6.0-windows\CodeEditor.deps.json
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\bin\Debug\net6.0-windows\CodeEditor.runtimeconfig.json
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\bin\Debug\net6.0-windows\CodeEditor.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\bin\Debug\net6.0-windows\ref\CodeEditor.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\bin\Debug\net6.0-windows\CodeEditor.pdb
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.csproj.AssemblyReference.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.Form1.resources
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.csproj.GenerateResource.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.AssemblyInfoInputs.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.AssemblyInfo.cs
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.csproj.CoreCompileInputs.cache
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\ref\CodeEditor.dll
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.pdb
+C:\Users\whoir\Documents\College\Projects\Advanced Programing\1\CodeEditor\CodeEditor\obj\Debug\net6.0-windows\CodeEditor.genruntimeconfig.cache
