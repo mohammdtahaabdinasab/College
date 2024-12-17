@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262A26"
+    android:orientation="vertical"
+    tools:context=".PsychologicalTest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#262A26"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="98"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:id="@+id/PageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Psychological Test"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/lil1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Are you thinking about suicide ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Are you alone most of the day ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/question3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Do you feel empty ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/question4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Don't you enjoy your life ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/question5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Do you think you have no friends ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/question6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Do you want to kill someone ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/question7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="Have you failed in your relationships?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/question8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="You change your mood quickly ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/question9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="You have Friend in your mind ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lil10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="VisualLintBounds">
+
+                <TextView
+                    android:id="@+id/question10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="You think too much about the past ?"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <CheckBox
+                    android:id="@+id/chlil19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="No"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+                <CheckBox
+                    android:id="@+id/chlil20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:minHeight="48dp"
+                    android:text="Yes"
+                    android:textColor="@color/white"
+                    tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf">
+
+            <Button
+                android:id="@+id/btnPrevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Previous"
+                tools:ignore="ButtonStyle,HardcodedText,NestedWeights,VisualLintButtonSize,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Next"
+                tools:ignore="ButtonStyle,HardcodedText,VisualLintButtonSize,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
