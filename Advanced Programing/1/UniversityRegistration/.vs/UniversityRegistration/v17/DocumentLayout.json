@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49C783B7-662A-4F2D-BF18-381B35052718}|UniversityRegistration\\UniversityRegistration.csproj|c:\\users\\whoir\\documents\\college\\projects\\advanced programing\\1\\universityregistration\\universityregistration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C783B7-662A-4F2D-BF18-381B35052718}|UniversityRegistration\\UniversityRegistration.csproj|solutionrelative:universityregistration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C783B7-662A-4F2D-BF18-381B35052718}|UniversityRegistration\\UniversityRegistration.csproj|c:\\users\\whoir\\documents\\college\\projects\\advanced programing\\1\\universityregistration\\universityregistration\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C783B7-662A-4F2D-BF18-381B35052718}|UniversityRegistration\\UniversityRegistration.csproj|solutionrelative:universityregistration\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C783B7-662A-4F2D-BF18-381B35052718}|UniversityRegistration\\UniversityRegistration.csproj|c:\\users\\whoir\\documents\\college\\projects\\advanced programing\\1\\universityregistration\\universityregistration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49C783B7-662A-4F2D-BF18-381B35052718}|UniversityRegistration\\UniversityRegistration.csproj|solutionrelative:universityregistration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "UniversityRegistration\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\Form1.Designer.cs",
+              "RelativeToolTip": "UniversityRegistration\\Form1.Designer.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwE8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:26:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\Form1.cs",
+              "RelativeDocumentMoniker": "UniversityRegistration\\Form1.cs",
+              "ToolTip": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\Form1.cs [Design]",
+              "RelativeToolTip": "UniversityRegistration\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:09:14.091Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 212,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\Form1.cs",
+              "RelativeDocumentMoniker": "UniversityRegistration\\Form1.cs",
+              "ToolTip": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\Form1.cs",
+              "RelativeToolTip": "UniversityRegistration\\Form1.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwO4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:20:20.394Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

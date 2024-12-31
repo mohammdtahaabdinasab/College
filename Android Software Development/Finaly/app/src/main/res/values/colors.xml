@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="dark_blue">#2E5077</color>
+    <color name="teal">#4DA1A9</color>
+    <color name="mint">#79D7BE</color>
+    <color name="off_white">#F6F4F0</color>
+
+    <!-- Light theme colors -->
+    <color name="light_primary">@color/dark_blue</color>
+    <color name="light_secondary">@color/teal</color>
+    <color name="light_accent">@color/mint</color>
+    <color name="light_background">@color/off_white</color>
+    <color name="light_text">@color/dark_blue</color>
+    <color name="light_text_secondary">@color/teal</color>
+
+    <!-- Dark theme colors -->
+    <color name="dark_primary">@color/mint</color>
+    <color name="dark_secondary">@color/teal</color>
+    <color name="dark_accent">@color/off_white</color>
+    <color name="dark_background">@color/dark_blue</color>
+    <color name="dark_text">@color/off_white</color>
+    <color name="dark_text_secondary">@color/mint</color>
+</resources>

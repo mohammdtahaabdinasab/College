@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "g8IJG+GXo7U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\whoir\\Documents\\College\\Projects\\Advanced Programing\\1\\UniversityRegistration\\UniversityRegistration\\UniversityRegistration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\whoir\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.0\\system.configuration.configurationmanager.9.0.0.nupkg.sha512",
+    "C:\\Users\\whoir\\.nuget\\packages\\system.data.oledb\\9.0.0\\system.data.oledb.9.0.0.nupkg.sha512",
+    "C:\\Users\\whoir\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.0\\system.diagnostics.eventlog.9.0.0.nupkg.sha512",
+    "C:\\Users\\whoir\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.0\\system.diagnostics.performancecounter.9.0.0.nupkg.sha512",
+    "C:\\Users\\whoir\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.0\\system.security.cryptography.protecteddata.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

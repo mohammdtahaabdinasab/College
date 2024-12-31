@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme -->
+    <style name="Theme.Finaly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_secondary</item>
+        <item name="colorOnPrimary">@color/dark_blue</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorSecondaryVariant">@color/dark_accent</item>
+        <item name="colorOnSecondary">@color/off_white</item>
+        
+        <!-- Status bar and Navigation bar -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        
+        <!-- Background and surface colors -->
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_background</item>
+        <item name="colorOnSurface">@color/dark_text</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColor">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        
+        <!-- Button colors -->
+        <item name="android:buttonTint">@color/dark_accent</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+
+        <!-- Disable default splash screen -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:buttonTint">?attr/colorSecondary</item>
+    </style>
+</resources>
