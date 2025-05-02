@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkBlue"
+    tools:context=".MainActivity">
+
+    <!-- Action Bar with Theme Toggle and GitHub buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:background="@color/darkBlue">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@color/paleBlue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingStart="8dp" 
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:id="@+id/themeModeButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Toggle Light/Dark Theme"
+            android:src="@drawable/ic_theme_mode"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/githubButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Open GitHub profile"
+            android:src="@drawable/ic_github"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+    </LinearLayout>
+    
+    <!-- Display Screen -->
+    <TextView
+        android:id="@+id/displayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/paleBlue"
+        android:gravity="end|bottom"
+        android:padding="16dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="48sp"
+        android:text="0"
+        android:maxLines="1"
+        android:ellipsize="start"
+        tools:ignore="EllipsizeMaxLines,HardcodedText" />
+
+    <!-- Calculator Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Row 1: Clear, Backspace, Divide -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/equalsButton"
+                style="@style/CalculatorButtonEquals"
+                android:text="@string/equals"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/clearButton"
+                style="@style/CalculatorButtonFunction"
+                android:text="@string/clear"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/backspaceButton"
+                style="@style/CalculatorButtonFunction"
+                android:text="@string/backspace"
+                tools:ignore="VisualLintButtonSize" />
+
+        </LinearLayout>
+
+        <!-- Row 2: 7, 8, 9, Multiply -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sevenButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/seven"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/eightButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/eight"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/nineButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/nine"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/addButton"
+                style="@style/CalculatorButtonOperator"
+                android:text="@string/add"
+                tools:ignore="VisualLintButtonSize" />
+
+        </LinearLayout>
+
+        <!-- Row 3: 4, 5, 6, Subtract -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fourButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/four"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/fiveButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/five"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/sixButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/six"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/subtractButton"
+                style="@style/CalculatorButtonOperator"
+                android:text="@string/subtract"
+                tools:ignore="VisualLintButtonSize" />
+        </LinearLayout>
+
+        <!-- Row 4: 1, 2, 3, Add -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/oneButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/one"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/twoButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/two"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/threeButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/three"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/multiplyButton"
+                style="@style/CalculatorButtonOperator"
+                android:text="@string/multiply"
+                tools:ignore="VisualLintButtonSize" />
+
+        </LinearLayout>
+
+        <!-- Row 5: 0, Decimal, Equals -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/zeroButton"
+                style="@style/CalculatorButtonDigit"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="@string/zero"
+                tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/decimalButton"
+                style="@style/CalculatorButtonDigit"
+                android:text="@string/decimal"
+                tools:ignore="VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/divideButton"
+                style="@style/CalculatorButtonOperator"
+                android:text="@string/divide"
+                tools:ignore="VisualLintButtonSize" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

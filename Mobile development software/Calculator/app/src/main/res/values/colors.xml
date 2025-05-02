@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Mohammad Taha's Color Palette -->
+    <color name="darkBlue">#03045E</color>
+    <color name="mediumBlue">#0077B6</color>
+    <color name="lightBlue">#00B4D8</color>
+    <color name="veryLightBlue">#90E0EF</color>
+    <color name="paleBlue">#CAF0F8</color>
+</resources>

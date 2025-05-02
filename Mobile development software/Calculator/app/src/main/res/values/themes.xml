@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/mediumBlue</item>
+        <item name="colorPrimaryVariant">@color/darkBlue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/lightBlue</item>
+        <item name="colorSecondaryVariant">@color/veryLightBlue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Disable the default splash screen -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.Calculator.SplashScreen" parent="Theme.Calculator">
+        <item name="android:windowBackground">@color/darkBlue</item>
+        <item name="android:statusBarColor">@color/darkBlue</item>
+        <item name="android:navigationBarColor">@color/darkBlue</item>
+    </style>
+</resources>

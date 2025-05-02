@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Mohammad Taha's Color Palette - Dark Mode -->
+    <!-- We're using the same colors but inverted for dark mode -->
+    <color name="darkBlue">#CAF0F8</color>  <!-- Inverted from paleBlue -->
+    <color name="mediumBlue">#90E0EF</color>  <!-- Inverted from veryLightBlue -->
+    <color name="lightBlue">#00B4D8</color>  <!-- Keep the same -->
+    <color name="veryLightBlue">#0077B6</color>  <!-- Inverted from mediumBlue -->
+    <color name="paleBlue">#03045E</color>  <!-- Inverted from darkBlue -->
+</resources> 
