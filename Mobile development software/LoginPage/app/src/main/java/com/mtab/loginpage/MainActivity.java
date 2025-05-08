@@ -1,5 +1,6 @@
 package com.mtab.loginpage;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     private EditText inputUsername,inputPassword;
+    private int loginStatus;
 
     private final String[] _texts = {
             "username field is empty !",
@@ -21,28 +23,28 @@ public class MainActivity extends AppCompatActivity {
             "Unspecified problem"
     };
 
-    private String login(String Username, String Password){
+    private int login(String Username, String Password){
         if(Username.isEmpty() || Username.isBlank()){
-            return _texts[0];
+            return 0;
         }
         else if(Password.isEmpty() || Password.isBlank()){
-            return _texts[1];
+            return 1;
         }
         else {
             String _Username = "admin";
             String _Password = "admin123";
             if (Username.equalsIgnoreCase(_Username) && Password.equals(_Password)) {
-                return _texts[4];
+                return 4;
             }
             else {
                 if (!Username.equalsIgnoreCase(_Username)){
-                    return _texts[2];
+                    return 2;
                 }
                 else if (Username.equalsIgnoreCase(_Username) && !Password.equals(_Password)) {
-                    return _texts[3];
+                    return 3;
                 }
                 else {
-                    return _texts[5];
+                    return 5;
                 }
             }
         }
@@ -56,7 +58,14 @@ public class MainActivity extends AppCompatActivity {
         inputUsername = findViewById(R.id.edteUsername);
         inputPassword = findViewById(R.id.edtePassword);
         Button buttonLogin = findViewById(R.id.btnLogin);
-        buttonLogin.setOnClickListener(v -> Toast.makeText(MainActivity.this, login(inputUsername.getText().toString(),inputPassword.getText().toString()), Toast.LENGTH_SHORT).show());
+        buttonLogin.setOnClickListener(v -> {
+            loginStatus = login(inputUsername.getText().toString(),inputPassword.getText().toString());
+            if(loginStatus == 4){
+                Intent intent = new Intent(MainActivity.this, AdminPanel.class);
+                startActivity(intent);
+            }
+            Toast.makeText(MainActivity.this, _texts[loginStatus], Toast.LENGTH_SHORT).show();
+        });
     }
 
 }
