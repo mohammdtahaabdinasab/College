@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#3A3A3A"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UselessLeaf">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@android:color/transparent"
+            android:text="&lt;"
+            android:textColor="#6F6F6F"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnForward"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@android:color/transparent"
+            android:text="&gt;"
+            android:textColor="#6F6F6F"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/edteSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edittext"
+            android:breakStrategy="simple"
+            android:ems="10"
+            android:hint="www.example.com"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#E0E0E0"
+            tools:ignore="Autofill,HardcodedText,InefficientWeight,NestedWeights,TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="10dp"
+            android:text="S"
+            android:textColor="#6F6F6F"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:background="#6F6F6F"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/teviCreator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="By Mohammad Taha Abdinasab"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText" />
+
+            <WebView
+                android:id="@+id/weviMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
