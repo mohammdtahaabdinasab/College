@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Todo List</string>
+    <string name="app_logo">App Logo</string>
+    <string name="developed_by">Mohammad Taha Abdinasab</string>
+    <string name="add_todo">Add New Task</string>
+    <string name="edit_todo">Edit Task</string>
+    <string name="delete_todo">Delete Task</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_title">Sort by Title</string>
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="todo_added">Task added successfully</string>
+    <string name="todo_updated">Task updated successfully</string>
+    <string name="todo_deleted">Task deleted successfully</string>
+    <string name="empty_title_error">Title cannot be empty</string>
+    <string name="empty_list">لیست خالی است. یک کار جدید اضافه کنید.</string>
+</resources>
